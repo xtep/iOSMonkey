@@ -69,6 +69,12 @@ public class XCTestWDServer {
         controllers.append(XCTestWDElementController())
         controllers.append(XCTestWDWindowController())
         controllers.append(XCTestWDUrlController())
+        controllers.append(XCTestWDMonkeyController())
+        controllers.append(XCTestWDStatusController())
+        controllers.append(XCTestWDTimeoutController())
+        controllers.append(XCTestWDExecuteController())
+        controllers.append(XCTestWDKeysController())
+        controllers.append(XCTestWDContextController())
         
         for controller in controllers {
             let routes = Swift.type(of: controller).routes()
