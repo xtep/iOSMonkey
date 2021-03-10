@@ -3,6 +3,7 @@
 1.环境配置：
 1.1 安装第三方库
 打开终端，进入XCTestWD目录,运行下面命令
+
 carthage.sh bootstrap --platform iOS --cache-builds
 
 xcode12比较特殊，参考下面配置方法
